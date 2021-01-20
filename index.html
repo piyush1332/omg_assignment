@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Home</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<script type="text/javascript" src="assets/js/script.js"></script>
+</head>
+<body onresize="mobileMenuResizeHandling()">
+	<div class="hero_background">
+		<div class="content_container font_family_arial">
+			<div class="header">
+				<div class="header_logo_container">
+					<span class="header_logo">
+						<i class="fa fa-plus" aria-hidden="true"></i>
+					</span>
+					<span>
+						HealthCare
+					</span>
+				</div>
+				<div class="header_menu_container_desktop">
+					<ul class="header_menu_desktop">
+						<li> <a href="#">Home</a></li>
+						<li> <a href="#">About</a></li>
+						<li> <a href="#">Services</a></li>
+						<li> <a href="#">Doctors</a></li>
+						<li> <a href="#">Blog</a></li>
+					</ul>
+				</div>
+				<div class="header_menu_container_mobile" id="header_menu_mobile">
+					<ul class="header_menu_mobile">
+						<li> <a href="#">Home</a></li>
+						<li> <a href="#">About</a></li>
+						<li> <a href="#">Services</a></li>
+						<li> <a href="#">Doctors</a></li>
+						<li> <a href="#">Blog</a></li>
+					</ul>
+				</div>
+				<div class="header_contact_btn_container">
+					<button class="header_contact_btn">Contact Us</button>
+				</div>
+				<div class="header_hamburger" onclick="openMobileNavMenu();">
+					<i class="fa fa-bars" aria-hidden="true"></i>
+				</div>
+			</div>
+			<div class="hero_image_content">
+				<h1>Providing An Exceptional Patient Experience</h1>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua.</p>
+				<div class="view_source_btn_holder">
+					<button class="view_source_btn">View Services</button>
+					<div class="play_btn">
+						<i class="fa fa-play" aria-hidden="true"></i>
+					</div>
+				</div>
+			</div>
+			<div class="book_now_fixed_tab" onclick = "openBookingForm();">
+				Book Now
+			</div>
+		</div>
+	</div>
+	<div class="content_container section_one">
+		<div class="companies_logo_container">
+			<div class="company_logo">
+				<img src="assets/images/philipse.png">
+			</div>
+			<div class="company_logo">
+				<img src="assets/images/cocacola.png">
+			</div>
+			<div class="company_logo">
+				<img src="assets/images/fiver.png">
+			</div>
+			<div class="company_logo">
+				<img src="assets/images/google.png">
+			</div>
+			<div class="company_logo">
+				<img src="assets/images/philipse.png">
+			</div>
+			<div class="company_logo">
+				<img src="assets/images/cocacola.png">
+			</div>
+		</div>
+		<div class="book_now_section" id = "book_now_section">
+			<span class="cross_icon" onclick = "closeBookingForm();">
+				<i class="fa fa-times" aria-hidden="true"></i>
+			</span>
+			<h1 class="book_now_heading">Book Now</h1>
+			<div class="book_now_input">
+				<input type="text" name="" placeholder="Your Name" class="book_now_input_field">
+			</div>
+			<div class="book_now_input">
+				<input type="text" name="" placeholder="Your Email" class="book_now_input_field">
+			</div>
+			<div class="book_now_input">
+				<select class="book_now_input_field">
+					<option>Select Dr</option>
+					<option>One</option>
+					<option>Two</option>
+					<option>Three</option>
+				</select>
+			</div>
+			<div class="book_now_input">
+				<select class="book_now_input_field">
+					<option>Select Date</option>
+					<option>One</option>
+					<option>Two</option>
+					<option>Three</option>
+				</select>
+			</div>
+			<button class="appoinment_btn">Make an Appoinment</button>
+		</div>
+	</div>
+</body>
+</html>
