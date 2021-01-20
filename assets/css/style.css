@@ -316,7 +316,7 @@
 	color: white;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-device-width: 900px) {
 	.header_menu_container_desktop {
 		display: none;
 	}
@@ -380,7 +380,7 @@
 	}
 }
 
-@media only screen and (max-width: 680px) {
+@media only screen and (max-device-width: 680px) {
 	.book_now_section {
 	    right: 7%;
 	}
